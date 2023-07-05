@@ -2,7 +2,6 @@
 
 const EventEmitter = require('events');
 const { setTimeout, clearTimeout } = require('timers');
-const fetch = require('node-fetch');
 const transports = require('./transports');
 const { RPCCommands, RPCEvents, RelationshipTypes } = require('./constants');
 const { pid: getPid, uuid } = require('./util');
