@@ -150,7 +150,6 @@ class RPCClient extends EventEmitter {
    * @param {Object} [args={}] Arguments
    * @param {string} [evt] Event
    * @returns {Promise}
-   * @private
    */
   request(cmd, args, evt) {
     return new Promise((resolve, reject) => {
